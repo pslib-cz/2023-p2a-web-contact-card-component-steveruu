@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
+@font-face {
+    font-family: 'icomoon';
+    src: url('./icons/fonts/icomoon.woff?18g707') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 html {
     background-image: url("../assets/images/bg.webp");
     background-repeat: no-repeat;
@@ -64,6 +71,18 @@ hr {
 }
 
 .icon- {
+    font-family: 'icomoon';
     margin-right: 0.18rem;
     font-size: 1.18rem;
+
+    letter-spacing: 0;
+    -webkit-font-feature-settings: "liga";
+    -moz-font-feature-settings: "liga=1";
+    -moz-font-feature-settings: "liga";
+    -ms-font-feature-settings: "liga" 1;
+    font-feature-settings: "liga";
+    -webkit-font-variant-ligatures: discretionary-ligatures;
+    font-variant-ligatures: discretionary-ligatures;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
