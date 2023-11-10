@@ -15,16 +15,12 @@ html {
     font-size: 1vw;
 }
 
-.container {
-    display: block;
-    margin-top: 10%;
-}
-
 .karticky-flex {
+    margin-top: 10%;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
     justify-content: center;
+    align-content: center;
 }
 
 .karticka {
@@ -34,7 +30,8 @@ html {
 }
 
 .avatar {
-    text-align: center; /* nevim, jestli je tohle moralni, ale pres marginy to nefunguje*/
+    display: flex;
+    justify-content: center;
 }
 
 .avatar__obrazek {
@@ -55,7 +52,6 @@ html {
 
 .atributy {
     display: block;
-    max-width: 100%;
     padding-bottom: 0.25rem;
     padding-right: 1rem;
 }
