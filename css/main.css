@@ -30,18 +30,18 @@ html {
 }
 
 .header {
-    display: flex;
-    justify-content: center;
+    width: 10em;
+    height: 10em;
+    aspect-ratio: 1 / 1;
+    border-radius: 100%;
+    overflow: hidden;
+
+    margin: -5em auto auto;
+    border: 0.33rem solid #FFF;
 }
 
 .avatar__obrazek {
-    width: 10vw;
-    border-radius: 50%;
-    border: 0.33rem solid #FFF;
-    object-fit: cover;
-    object-position: top;
-    aspect-ratio: 1 / 1;
-    margin-top: -7rem;
+    width: 100%
 }
 
 .karticka__name {
