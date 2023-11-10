@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
-
 @font-face {
     font-family: 'icomoon';
     src: url('./icons/fonts/icomoon.woff?18g707') format('woff');
@@ -51,7 +49,7 @@ html {
 
 }
 
-.atributy {
+.karticka__atributy {
     display: block;
     padding-bottom: 0.25rem;
     padding-right: 1rem;
