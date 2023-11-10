@@ -30,12 +30,12 @@ html {
 }
 
 .header {
+    display: block;
     width: 10em;
     height: 10em;
     aspect-ratio: 1 / 1;
     border-radius: 100%;
     overflow: hidden;
-
     margin: -5em auto auto;
     border: 0.33rem solid #FFF;
 }
@@ -48,6 +48,7 @@ html {
     margin-left: 1rem;
     font-weight: 700;
     font-size: 1vw;
+
 }
 
 .atributy {
@@ -57,6 +58,7 @@ html {
 }
 
 .karticka__atribut {
+    display: block;
     margin-left: 1rem;
     font-size: 1vw;
     font-weight: 400;
