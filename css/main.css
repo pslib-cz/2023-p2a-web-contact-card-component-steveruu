@@ -16,8 +16,8 @@ html {
 }
 
 .karticky-flex {
-    margin-top: 10%;
     display: flex;
+    margin-top: 10%;
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
@@ -29,7 +29,7 @@ html {
     margin: 0.75rem;
 }
 
-.avatar {
+.header {
     display: flex;
     justify-content: center;
 }
